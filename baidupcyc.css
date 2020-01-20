@@ -1,0 +1,115 @@
+dl, dd, dt {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.floating_ck {
+    position: fixed;
+    right: 0px;
+    top: 10%;
+    z-index: 999;
+}
+
+.floating_ck dl dd {
+    position: relative;
+    width: 135px;
+    height: 54px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/*.floating_ck dl dd:hover {*/
+    /*background-color: #3a3a3a;*/
+    /*border-bottom: solid 1px #a40324;*/
+/*}*/
+
+.floating_ck dl dd:hover .floating_left {
+    display: block;
+}
+a
+.consult {
+    background-image: url(//image.less-more.net/piblicimg/cebian/1.png);
+}
+
+.words {
+    background-image: url(//image.less-more.net/piblicimg/cebian/2.png);
+}
+
+.quote {
+    background-image: url(//image.less-more.net/piblicimg/cebian/4.png);
+}
+
+.qrcord {
+    background-image: url(//image.less-more.net/piblicimg/cebian/5.png);
+}
+
+.return {
+    background-image: url(//image.less-more.net/piblicimg/cebian/6.png);
+}
+
+.floating_ck dd span {
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    padding-top: 54px;
+}
+
+.floating_left {
+    position: absolute;
+    left: -135px;
+    top: 8px;
+    width: 135px;
+    height: 65px;
+    background-color: #e40231;
+    border-bottom: solid 1px #a40324;
+    display: none;
+}
+
+.floating_left a {
+    color: #fff;
+    line-height: 80px;
+}
+
+.floating_ewm {
+    height: 220px;
+    top: -148px;
+}
+
+.floating_ewm i {
+    background-image: url(//image.less-more.net/20190214/18.jpg);
+    display: block;
+    width: 135px;
+    height: 68px;
+    margin: auto;
+    margin-top: 7px;
+}
+
+.floating_ewm p {
+    color: #fff;
+    margin-top: 5px;
+}
+
+.floating_ewm .qrcord_p01 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.floating_ewm .qrcord_p02 {
+    font-size: 14px;
+}
+
+/*����Ӧ ����С��1050ʱ����*/
+@media screen and (max-width: 1050px) {
+    .floating_ck {
+        display: none;
+    }
+}
